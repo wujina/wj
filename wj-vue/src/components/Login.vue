@@ -30,7 +30,7 @@
         checked: true,
         loginForm: {
           username: 'admin',
-          password: '123'
+          password: 'adminroot'
         },
         loading: false
       }
@@ -47,6 +47,7 @@
             if (resp.data.code === 200) {
               var data = resp.data
               _this.$store.commit('login', data.data)
+              console.log(_this)
               var path = _this.$route.query.redirect
               _this.$router.replace({path: path === '/' || path === undefined ? '/home' : path})
             }

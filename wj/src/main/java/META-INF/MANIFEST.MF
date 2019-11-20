@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Class-Path: mysql-connector-java-8.0.13.jar junit-4.12.jar jackson-dat
+ aformat-smile-2.9.7.jar jboss-logging-3.3.2.Final.jar log4j-api-2.11.
+ 1.jar jackson-datatype-jsr310-2.9.7.jar spring-data-redis-2.1.3.RELEA
+ SE.jar thymeleaf-extras-java8time-3.0.2.RELEASE.jar netty-resolver-4.
+ 1.31.Final.jar spring-aop-5.1.3.RELEASE.jar jackson-dataformat-yaml-2
+ .9.7.jar xml-apis-1.4.01.jar nekohtml-1.9.22.jar javax.persistence-ap
+ i-2.2.jar shiro-core-1.3.2.jar spring-jdbc-5.1.3.RELEASE.jar spring-b
+ oot-starter-data-jpa-2.1.1.RELEASE.jar netty-transport-4.1.31.Final.j
+ ar jackson-datatype-jdk8-2.9.7.jar spring-data-commons-2.1.3.RELEASE.
+ jar spring-boot-starter-web-2.1.1.RELEASE.jar netty-codec-4.1.31.Fina
+ l.jar jackson-annotations-2.9.0.jar spring-jcl-5.1.3.RELEASE.jar jul-
+ to-slf4j-1.7.25.jar reindex-client-6.4.3.jar spring-web-5.1.3.RELEASE
+ .jar hppc-0.7.1.jar shiro-spring-1.3.2.jar spring-data-keyvalue-2.1.3
+ .RELEASE.jar logback-core-1.2.3.jar HdrHistogram-2.1.9.jar lucene-spa
+ tial-7.4.0.jar xercesImpl-2.11.0.jar elasticsearch-cli-6.4.3.jar thym
+ eleaf-3.0.11.RELEASE.jar httpcore-4.4.10.jar antlr-2.7.7.jar javax.tr
+ ansaction-api-1.3.jar spring-data-jpa-2.1.3.RELEASE.jar transport-6.4
+ .3.jar validation-api-2.0.1.Final.jar elasticsearch-x-content-6.4.3.j
+ ar javassist-3.23.1-GA.jar netty-handler-4.1.31.Final.jar jopt-simple
+ -5.0.2.jar spring-boot-starter-logging-2.1.1.RELEASE.jar javax.activa
+ tion-api-1.2.0.jar elasticsearch-core-6.4.3.jar lucene-suggest-7.4.0.
+ jar reactive-streams-1.0.2.jar spring-expression-5.1.3.RELEASE.jar sh
+ iro-web-1.3.2.jar percolator-client-6.4.3.jar jaxb-api-2.3.1.jar reac
+ tor-core-3.2.3.RELEASE.jar ecj-3.12.3.jar javax.annotation-api-1.3.2.
+ jar slf4j-api-1.7.25.jar lettuce-core-5.1.3.RELEASE.jar lucene-spatia
+ l-extras-7.4.0.jar log4j-to-slf4j-2.11.1.jar compiler-0.9.3.jar rank-
+ eval-client-6.4.3.jar joda-time-2.10.1.jar spring-orm-5.1.3.RELEASE.j
+ ar attoparser-2.0.5.RELEASE.jar hamcrest-core-1.3.jar lucene-core-7.4
+ .0.jar lucene-spatial3d-7.4.0.jar lucene-highlighter-7.4.0.jar elasti
+ csearch-rest-client-6.4.3.jar spring-boot-devtools-2.1.1.RELEASE.jar 
+ spring-context-support-5.1.3.RELEASE.jar dom4j-2.1.1.jar t-digest-3.2
+ .jar jackson-dataformat-cbor-2.9.7.jar spring-context-5.1.3.RELEASE.j
+ ar lucene-sandbox-7.4.0.jar commons-codec-1.11.jar lucene-misc-7.4.0.
+ jar spring-oxm-5.1.3.RELEASE.jar spring-boot-starter-json-2.1.1.RELEA
+ SE.jar spring-data-elasticsearch-3.1.3.RELEASE.jar lucene-grouping-7.
+ 4.0.jar netty-codec-http-4.1.31.Final.jar parent-join-client-6.4.3.ja
+ r spring-aspects-5.1.3.RELEASE.jar byte-buddy-1.9.5.jar tomcat-embed-
+ jasper-8.5.23.jar classmate-1.4.0.jar httpcore-nio-4.4.10.jar jackson
+ -module-parameter-names-2.9.7.jar lucene-memory-7.4.0.jar httpasynccl
+ ient-4.1.4.jar elasticsearch-6.4.3.jar spring-beans-5.1.3.RELEASE.jar
+  HikariCP-3.2.0.jar spring-webmvc-5.1.3.RELEASE.jar jna-4.5.1.jar spr
+ ing-tx-5.1.3.RELEASE.jar spring-core-5.1.3.RELEASE.jar lucene-backwar
+ d-codecs-7.4.0.jar jackson-databind-2.9.7.jar spring-boot-2.1.1.RELEA
+ SE.jar tomcat-embed-core-9.0.13.jar spring-boot-starter-aop-2.1.1.REL
+ EASE.jar spring-boot-starter-thymeleaf-2.1.1.RELEASE.jar hsqldb-2.4.1
+ .jar netty-common-4.1.31.Final.jar netty-buffer-4.1.31.Final.jar unbe
+ scape-1.1.6.RELEASE.jar commons-beanutils-1.8.3.jar snakeyaml-1.23.ja
+ r lucene-queries-7.4.0.jar spring-boot-starter-data-elasticsearch-2.1
+ .1.RELEASE.jar lucene-queryparser-7.4.0.jar hibernate-core-5.3.7.Fina
+ l.jar lucene-analyzers-common-7.4.0.jar jna-3.0.9.jar logback-classic
+ -1.2.3.jar thymeleaf-spring5-3.0.11.RELEASE.jar spring-boot-starter-j
+ dbc-2.1.1.RELEASE.jar hibernate-commons-annotations-5.0.4.Final.jar s
+ pring-boot-starter-data-redis-2.1.1.RELEASE.jar elasticsearch-secure-
+ sm-6.4.3.jar lang-mustache-client-6.4.3.jar tomcat-embed-el-9.0.13.ja
+ r jackson-core-2.9.7.jar hibernate-validator-6.0.13.Final.jar transpo
+ rt-netty4-client-6.4.3.jar jandex-2.0.5.Final.jar httpclient-4.5.6.ja
+ r lucene-join-7.4.0.jar aspectjweaver-1.9.2.jar spring-boot-autoconfi
+ gure-2.1.1.RELEASE.jar commons-lang-2.6.jar spring-boot-starter-2.1.1
+ .RELEASE.jar
+Main-Class: 
+

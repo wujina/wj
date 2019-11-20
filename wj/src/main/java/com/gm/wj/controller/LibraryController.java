@@ -18,40 +18,7 @@ public class LibraryController {
     @Autowired
     BookService bookService;
 
-    @GetMapping("/api/books")
-    public List<Book> list() throws Exception {
-        return bookService.list();
-    }
 
-    @PostMapping("/api/books")
-    public Book addOrUpdate(@RequestBody Book book) throws Exception {
-        System.out.println(book.getCategory());
-        bookService.addOrUpdate(book);
-        return book;
-    }
-
-    @PostMapping("/api/delete")
-    public void delete(@RequestBody Book book) throws Exception {
-        bookService.deleteById(book.getId());
-    }
-
-    @PostMapping("/api/search")
-    public List<Book> searchResult(@RequestBody Search s) throws Exception {
-        if ("".equals(s.getKeywords())) {
-            return bookService.list();
-        } else {
-            return bookService.Search(s.getKeywords());
-        }
-    }
-
-    @GetMapping("/api/categories/{cid}/books")
-    public List<Book> listByCategory(@PathVariable("cid") int cid) throws Exception {
-        if (0 != cid) {
-            return bookService.listByCategory(cid);
-        } else {
-            return list();
-        }
-    }
 
     @PostMapping("api/covers")
     public String coversUpload(MultipartFile file, HttpServletRequest request) throws Exception {

@@ -1,32 +1,21 @@
 package com.gm.wj.service;
 
-import com.gm.wj.dao.UserDAO;
 import com.gm.wj.pojo.User;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
-import org.springframework.stereotype.Service;
-@Service
-public class UserService {
-    @Autowired
-    UserDAO userDAO;
 
-    public boolean isExist(String username) {
-        User user = getByName(username);
-        return null!=user;
-    }
+import java.io.UnsupportedEncodingException;
+import java.security.NoSuchAlgorithmException;
 
-    public User getByName(String username) {
-        return userDAO.findByUsername(username);
-    }
+public interface UserService {
 
-    public User get(String username, String password){
-        return userDAO.getByUsernameAndPassword(username, password);
-    }
+    /**
+     * 根据姓名获得用户信息
+     * @param username 传入的名字
+     * @param password
+     * @return
+     * @throws UnsupportedEncodingException
+     * @throws NoSuchAlgorithmException
+     */
+    User get(String username, String password) throws UnsupportedEncodingException, NoSuchAlgorithmException;
 
-    public void add(User user) {
-        userDAO.save(user);
-    }
+
 }
