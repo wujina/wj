@@ -8,6 +8,7 @@ import com.gm.wj.dao.CityDao;
 import com.gm.wj.dao.IdentityInformationDao;
 import com.gm.wj.dao.UserInfoDao;
 import com.gm.wj.pojo.IdentityInformation;
+import com.gm.wj.pojo.TextPojo;
 import com.gm.wj.pojo.User;
 import com.gm.wj.result.Result;
 import com.gm.wj.result.ResultFactory;
@@ -159,9 +160,22 @@ public class LoginController {
     @ResponseBody
     public  String run_dir() throws IOException, ParseException {
 
-        LoginController loginController=new LoginController();
+      IdentityInformation da =new IdentityInformation();
 
-        loginController.myPrint("http://51porn.uk");
+      Condition<IdentityInformation>condition=new Condition(IdentityInformation.class);
+
+
+      condition.where();
+
+
+      long sda=identityInformationDao.count(condition);
+
+
+
+
+//        LoginController loginController=new LoginController();
+//
+//        loginController.myPrint("http://51porn.uk");
 
 //        File srcFile = new File("F:\\BaiduNetdiskDownload\\黑名单-手持"); //这里填源文件夹路径
 //

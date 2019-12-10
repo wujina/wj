@@ -23,7 +23,7 @@ public final class Condition<T> {
   private List<Criteria> criterions = new ArrayList<>();
   
   public Condition(Class<T> type) { this.type = type; }
-  
+
   public Class<?> getType() { return type; }
 
   public int getPage() { return page; }
